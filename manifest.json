@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "delete public opinion in jumppuls",
+    "description": "delete users comment and ranking",
+    "version": "1.0",
+    "content_scripts": [
+      {
+        "matches": [
+          "https://shonenjumpplus.com/episode/*"
+        ],
+        "css": [
+          "content-style.css"
+        ]
+      }
+    ]
+  }
